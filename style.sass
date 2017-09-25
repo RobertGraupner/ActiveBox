@@ -1,0 +1,193 @@
+*
+	box-sizing: border-box
+
+.navbar
+	margin: 0 auto
+
+.navbar-nav
+	li
+		margin-left: 10px
+		text-align: center
+
+.jumbotron
+	background-image: url(https://i.imgur.com/pUBv4ZU.png)
+	background-size: cover
+	background-repeat: no-repeat
+	height: 750px
+	color: white
+	margin: 0 auto
+
+.text-center
+	transform: translateY(50%)
+
+.btn-danger
+	padding: 15px
+	margin-top: 50px
+
+.benefits
+	margin: 20px 0 60px 0
+	text-align: center
+	img
+		margin: 0 auto
+		padding: 25px 0
+
+.gallery
+	position: relative
+	border: 0.2px solid white
+	padding: 0
+	height: 350px
+	overflow: hidden
+	img
+		width: 100%
+		height: 350px
+		overflow: hidden
+	&:hover img
+		transform: scale(1.3)
+		transition: 1s
+
+.layer
+	background: rgba(232, 69, 69, 0.6)
+	opacity: 0
+	position: absolute
+	transition: 1s
+	width: 100%
+	height: 100%
+	top: 0
+	left: 0
+	color: white
+	text-align: center
+	&:hover 
+		transition: 1s
+		opacity: 1
+	h5
+		padding-top: 140px
+	p
+		padding-top: 10px
+
+.people
+	margin: 30px
+	img
+		height: 250px
+		width: 250px
+		margin: 0 auto
+	h4
+		font-weight: bold
+	h5
+		color: #e74545
+
+.characteristic
+	margin: 0 auto
+	text-align: center
+	max-width: 400px
+	width: 100%
+
+.social-media
+	margin: 20px 0
+	text-align: center
+	
+.fa
+	width: 40px
+	height: 40px
+	color: silver
+	border: 1px solid silver
+	font-size: 20px
+	padding: 10px
+	transition: .3s
+	&:hover
+		color: white
+		border: 1px solid white
+	&.fa-facebook
+		&:hover
+			background-color: #3b5998
+	&.fa-twitter
+		&:hover
+			background-color: #55acee
+	&.fa-linkedin
+		&:hover
+			background-color: #007bbb
+
+.item
+	img
+		width: 100%
+		height: 450px
+
+.slide
+	position: relative
+	height: 450px
+	overflow: hidden
+	padding-left: 0
+	padding-right: 0
+
+.slogan
+	background: #53354a
+	width: 100%
+	height: 100%
+	font-size: 30px
+	color: white
+	padding: 160px 15px 100px 15px
+	q
+		max-width: 400px
+
+.download
+	text-align: center
+	padding: 80px 0 80px 0
+	p 
+		font-size: 16px
+		text-transform: uppercase
+	
+.btn-download
+	padding: 15px
+	margin-top: 50px
+
+.contact 
+	background: #3A3E64
+	color: white
+	text-align: center
+	padding: 15px 0 30px 0
+	margin: 0 auto
+	h4 
+		margin: 15px 0 25px 0
+		text-transform: uppercase
+	p 
+		color: rgba(255, 255, 255, .8)
+
+footer 
+	background: #313454
+	text-align: center
+	color: rgba(255, 255, 255, .8)
+	padding-top: 10px
+	margin: 0 auto
+	text-align: center
+	b
+		color: white
+		font-weight: 500
+	span
+		color: red
+
+@media screen and (max-width:1199px)
+
+	.navbar
+		li
+			margin: 0 auto
+
+	.text-center
+		transform: translateY(40%)
+
+	.slogan
+		padding: 120px 15px 100px 15px
+
+@media screen and (max-width: 767px)
+
+	.jumbotron
+		height: 550px
+
+	.text-center
+		transform: translateY(45%)
+
+@media screen and (max-width: 576px)
+
+	.text-center
+		transform: translateY(25%)
+
+
+
