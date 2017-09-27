@@ -28,7 +28,10 @@
   text-align: center; }
   .benefits img {
     margin: 0 auto;
-    padding: 25px 0; }
+    padding-top: 55px; }
+
+.photoBox {
+  padding-top: 55px; }
 
 .gallery {
   position: relative;
@@ -64,7 +67,8 @@
     padding-top: 10px; }
 
 .people {
-  margin: 30px; }
+  margin: 30px;
+  padding-top: 55px; }
   .people img {
     height: 250px;
     width: 250px;
@@ -105,6 +109,9 @@
 .item img {
   width: 100%;
   height: 450px; }
+
+.slider {
+  padding-top: 55px; }
 
 .slide {
   position: relative;
@@ -161,13 +168,24 @@ footer {
 
 @media screen and (max-width: 1199px) {
   .navbar li {
+    margin: 0 auto;
+    padding: 0; }
+
+  .navbar {
     margin: 0 auto; }
 
   .text-center {
     transform: translateY(40%); }
 
+  .item img {
+    width: 100%;
+    height: 350px; }
+
+  .slide {
+    height: 350px; }
+
   .slogan {
-    padding: 120px 15px 100px 15px; } }
+    padding: 120px 15px 0px 15px; } }
 @media screen and (max-width: 767px) {
   .jumbotron {
     height: 550px; }
